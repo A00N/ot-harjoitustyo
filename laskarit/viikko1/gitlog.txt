@@ -1,0 +1,86 @@
+nooa@DESKTOP-LSANVBD:~/ot_viikko1/tiedostoja$ git log --stat | cat
+commit a393d7174e3a669a6f23904dbda8c398077ca086
+Author: Nooa <nsaareks@gmail.com>
+Date:   Thu Mar 17 15:21:32 2022 +0200
+
+    Changes
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 0bb63def3e99d41e24419fcf6fa351e9df64a56d
+Author: Nooa <nsaareks@gmail.com>
+Date:   Thu Mar 17 15:19:22 2022 +0200
+
+    Tiedostot
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 9b064faf788484500453eeb30db65703722971bc
+Author: Nooa <nsaareks@gmail.com>
+Date:   Thu Mar 17 15:14:01 2022 +0200
+
+    changes to txt files
+
+ eka.txt    | 2 ++
+ kolmas.txt | 1 +
+ 2 files changed, 3 insertions(+)
+
+commit bfcdc053fb990151b5151e42c19b9a95a0925530
+Author: Nooa <nsaareks@gmail.com>
+Date:   Thu Mar 17 15:12:36 2022 +0200
+
+    Filename change
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 639605f6cb8a20ce5834a0c3699f8627a0462121
+Author: Nooa <nsaareks@gmail.com>
+Date:   Thu Mar 17 15:11:34 2022 +0200
+
+    deleted file
+
+ toinen.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 3e5d8a8f483daa16b8070cfe4d82b065542e64ac
+Author: Nooa <nsaareks@gmail.com>
+Date:   Thu Mar 17 15:02:37 2022 +0200
+
+    new dir and txt file
+
+ stuff/testeri.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 9d8b3345260689e7e2431e7eafdc2556a0038506
+Author: Nooa <nsaareks@gmail.com>
+Date:   Thu Mar 17 15:01:45 2022 +0200
+
+    new file
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit ee62375268ab6b91dd284123175f73893fb47345
+Author: Nooa <nsaareks@gmail.com>
+Date:   Thu Mar 17 14:59:48 2022 +0200
+
+    Change and addon
+
+ tiedosto.txt | 3 +++
+ toinen.txt   | 0
+ 2 files changed, 3 insertions(+)
+
+commit 56312e0562734440a83dacbe9724173db5e0b2d4
+Author: Nooa <nsaareks@gmail.com>
+Date:   Thu Mar 17 14:57:16 2022 +0200
+
+    tiedosto.txt was created
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
