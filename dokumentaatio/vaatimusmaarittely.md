@@ -17,16 +17,16 @@ Sovellus koostuu seuraavista näkymistä:
 
 ![](./kuvat/paavalikko-tasot-taso.png)
 
-##Perusversion toiminnot
+## Perusversion toiminnot
 
-# Päävalikossa 
+### Päävalikossa 
 
 - Pelaaja voi selata eri tasoja
 - Pelaaja voi valita tasoista haluamansa tason ja pelata sitä
 - Pelaaja näkee mitkä tasoita on suorittanut
 - Pelaaja voi poistua pelistä
 
-# Pelissä
+### Pelissä
 
 - Pelaajalla on kolme elämää
 - Pelaaja voi lisätä rasteja ruutuun, johon ei tule neliötä
