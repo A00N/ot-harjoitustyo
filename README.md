@@ -6,6 +6,8 @@ Sovellus on perinteinen japanilainen ristikko, joka tunnetaan nimellä _nonogram
 
 ### Dokumentaatio
 
+[Vaativuusmäärittely](./dokumentaatio/vaativuusmaarittely.md)
+
 [Työaikakirjanpito](./dokumentaatio/tyoaikakirjanpito.md)
 
 [gitlog.txt](https://github.com/Zo4N/ot-harjoitustyo/blob/main/laskarit/viikko1/gitlog.txt)
