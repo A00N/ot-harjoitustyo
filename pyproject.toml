@@ -8,6 +8,7 @@ authors = ["Nooa Saareks <nsaareks@gmail.com>"]
 python = "^3.8"
 cowsay = "^4.0"
 pygame = "^2.1.2"
+invoke = "^1.7.0"
 
 [tool.poetry.dev-dependencies]
 coverage = "^6.3.2"
