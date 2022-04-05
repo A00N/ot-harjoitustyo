@@ -13,13 +13,13 @@ class Numbers:
 
     #Check for position
     def calc_pos(self):
-        self.x = SQUARE_SIZE * self.col + SQUARE_SIZE // 2
-        self.y = SQUARE_SIZE * self.row + SQUARE_SIZE // 2
+        self.x = int(SQUARE_SIZE * self.col + SQUARE_SIZE // 2)
+        self.y = int(SQUARE_SIZE * self.row + SQUARE_SIZE // 2)
 
     #Draw
     def draw(self, win):
-        radius = SQUARE_SIZE//2
-        pygame.draw.circle(win,self.color,(self.x, self.y), radius-10)
+        radius = int(SQUARE_SIZE//2)-10
+        pygame.draw.circle(win,self.color,(self.x, self.y), radius)
 
     def returnvalue(self):
         return self.value
