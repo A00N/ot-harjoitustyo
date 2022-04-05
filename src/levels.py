@@ -1,7 +1,7 @@
 import pygame
 from constants import *
 from marker import Marker
-from numbers import Numbers
+from numberMarker import Numbers
 import levelList
 
 class Grid:
