@@ -7,8 +7,11 @@ import levelList
 class Grid:
     def __init__(self):
         self.grid = []
-        self.create_level(levelList.level2)
-        self.answer = [(0,0,0,0,0),(0,0,0,0,0),(0,0,0,0,0),(0,0,0,0,0),(0,0,0,0,0)]
+        self.level = levelList.level3
+        self.level_answer = levelList.level3_answer
+        self.create_level(self.level)
+        self.answer = [[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]
+        self.completed = False
 
 
     #Draw the grid background
@@ -64,9 +67,12 @@ class Grid:
             if col>1 and col <7:
                 if color == DARKGRAY:
                     value = -1
+                    self.answer[row-2][col-2] = value
+                    print(self.answer)
                 else:
                     value = -2
-
+                    self.answer[row - 2][col - 2] = value
+                    print(self.answer)
                 self.grid[row][col] = Marker(row, col, color)
 
 
@@ -84,11 +90,16 @@ class Grid:
                     if col > 1 and col < 7:
                         if self.grid[row][col] != 0:
                             sum +=1
+                            print(sum)
         if sum == 25:
-            if self.answer == levelList.level2_answer:
-                print("OIKEIN")
+            if self.answer == self.level_answer:
+                print("Oikein")
+                self.completed = True
             else:
                 print("Väärin")
+                self.completed = False
+
+
 
 
 

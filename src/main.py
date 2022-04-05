@@ -1,6 +1,6 @@
 import pygame
-from constants import WIDTH, HEIGHT,SQUARE_SIZE, DARKGRAY , BLACK
-from levels import Grid
+from constants import *
+from levels import *
 import levelList
 
 FPS = 60
@@ -33,11 +33,13 @@ def main():
                 pos = pygame.mouse.get_pos()
                 row, col = get_row_col_from_mouse(pos)
                 print("Leftclick",row, col)
-
+                #Add black marker
                 if grid.grid_check(int(row),int(col)):
                     grid.new_marker(int(row),int(col), BLACK)
-                    #grid.check_for_complition()
+                    #Check for completion
+                    grid.check_for_complition()
                 else:
+                    #Remove marker
                     grid.remove_marker(int(row),int(col))
                 pygame.display.update()
 
@@ -46,9 +48,13 @@ def main():
                 pos = pygame.mouse.get_pos()
                 row, col = get_row_col_from_mouse(pos)
                 print("Rightclick",row, col)
+                #Add gray marker
                 if grid.grid_check(int(row),int(col)):
                     grid.new_marker(int(row),int(col), DARKGRAY)
+                    # Check for completion
+                    grid.check_for_complition()
                 else:
+                    #Remove marker
                     grid.remove_marker(int(row),int(col))
                 pygame.display.update()
 

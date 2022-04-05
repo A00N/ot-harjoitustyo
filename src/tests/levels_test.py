@@ -1,5 +1,5 @@
 import unittest
-from levels import Grid
+from levels import *
 
 
 class TestGrid(unittest.TestCase):
