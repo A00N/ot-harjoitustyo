@@ -1,5 +1,5 @@
 import pygame
-from constants import ROWS, COLS, SQUARE_SIZE, CYAN, BLACK, WHITE, DARKGRAY, GRAY, LEVEL_LENGTH, GREEN, RED, YELLOW, ORANGE
+from constants import *
 from marker import Marker
 from numbers import Numbers
 import levelList

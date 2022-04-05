@@ -1,5 +1,5 @@
 import pygame
-from constants import BLACK, GRAY, CYAN, SQUARE_SIZE
+from constants import *
 
 class Numbers:
     def __init__(self,row, col, value, color):

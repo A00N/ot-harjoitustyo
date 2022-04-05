@@ -10,6 +10,5 @@ Sovellus on perinteinen japanilainen ristikko, joka tunnetaan nimellä _nonogram
 
 [Työaikakirjanpito](./dokumentaatio/tyoaikakirjanpito.md)
 
-[gitlog.txt](https://github.com/Zo4N/ot-harjoitustyo/blob/main/laskarit/viikko1/gitlog.txt)
+[Changelog](./dokumentaatio/changelog.md)
 
-[komentorivi.txt](https://github.com/Zo4N/ot-harjoitustyo/blob/main/laskarit/viikko1/komentorivi.txt)

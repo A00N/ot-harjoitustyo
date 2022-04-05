@@ -1,11 +1,10 @@
 import unittest
+from levels import Grid
 
-from levels import Levels
 
-class TestLevels(unittest.TestCase):
+class TestGrid(unittest.TestCase):
     def setUp(self):
-        self.levels = Levels()
-
+        self.grid = Grid()
 
     def test_grid_size(self):
         self.assertEqual(len(self.grid), 7)
