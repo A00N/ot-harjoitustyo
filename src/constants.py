@@ -1,4 +1,5 @@
 import pygame
+from levelList import *
 
 WIDTH, HEIGHT = 600, 600
 ROWS = COLS = 9
@@ -15,3 +16,10 @@ GREEN = (125,255,0)
 RED = (255,0,0)
 YELLOW = (255, 255, 0)
 ORANGE = (255,165,0)
+PURPLE = (255,0,125)
+
+#levels
+
+LEVEL0 = (level0, level0_answer)
+LEVEL1 = (level1, level1_answer)
+LEVEL2 = (level2, level2_answer)

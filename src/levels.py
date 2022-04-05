@@ -7,8 +7,10 @@ import levelList
 class Grid:
     def __init__(self):
         self.grid = []
-        self.level = levelList.level3
-        self.level_answer = levelList.level3_answer
+
+        self.level = level0
+        self.level_answer = level0_answer
+
         self.create_level(self.level)
         self.answer = [[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]
         self.completed = False
@@ -68,11 +70,11 @@ class Grid:
                 if color == DARKGRAY:
                     value = -1
                     self.answer[row-2][col-2] = value
-                    print(self.answer)
+                    #print(self.answer)
                 else:
                     value = -2
                     self.answer[row - 2][col - 2] = value
-                    print(self.answer)
+                    #print(self.answer)
                 self.grid[row][col] = Marker(row, col, color)
 
 
@@ -81,6 +83,7 @@ class Grid:
         if row>1 and row <7:
             if col>1 and col <7:
                 self.grid[row][col] = 0
+                self.answer[row-2][col-2] = 0
 
     def check_for_complition(self):
         sum=0
@@ -90,7 +93,7 @@ class Grid:
                     if col > 1 and col < 7:
                         if self.grid[row][col] != 0:
                             sum +=1
-                            print(sum)
+        print(sum)
         if sum == 25:
             if self.answer == self.level_answer:
                 print("Oikein")
@@ -99,7 +102,10 @@ class Grid:
                 print("Väärin")
                 self.completed = False
 
-
+    def is_completed(self,win):
+        if self.completed:
+            box = pygame.Rect(WIDTH/2-100, HEIGHT/10*8, 200, 50)
+            pygame.draw.rect(win, PURPLE, box)
 
 
 
