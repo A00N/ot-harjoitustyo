@@ -18,4 +18,4 @@ vdi yhteydellä linuxissa kyseinen ohjelma _toimii_ **mutta** kuvasuhteet eivät
 
 Kuva miltä sovelluksen pitäisi näyttää (ja näyttää windows sekä mac koneilla sekä fuksiläppärillä)
 
-[Kuva](./dokumentaatio/kuvat/toimivasovellus.png)
+[Kuva](./dokumentaatio/kuvat/toimivasovellus.PNG)
