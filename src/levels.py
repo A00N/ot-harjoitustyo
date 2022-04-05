@@ -8,8 +8,8 @@ class Grid:
     def __init__(self):
         self.grid = []
 
-        self.level = level0
-        self.level_answer = level0_answer
+        self.level = level2
+        self.level_answer = level2_answer
 
         self.create_level(self.level)
         self.answer = [[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]
