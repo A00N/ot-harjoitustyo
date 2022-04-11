@@ -8,3 +8,9 @@
 - Lisätty ominaisuus joka kertoo kun taso on oikein/väärin
 - Lisättty main luokka, joka suorittaa ja hallinnoi pygamea ja pelin suorittamista
 - Lisätty levelList luokka, joka pitää kirjaa eri tasoista
+
+## Viikko 4
+- Lisätty päävalikko sekä tason valitsin näkymä.
+- Lisätty navigointi eri huoneiden välillä
+- Lisätty napit sekä tekstit nappeihin.
+- Lisätty numerointi väritettyjen vihjeiden päälle sekaannuksien välttämiseksi

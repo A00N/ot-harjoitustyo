@@ -16,4 +16,3 @@ class TestGrid(unittest.TestCase):
 
     def test_window_size(self):
         self.assertEqual(self.WIDTH*self.HEIGHT, 360000)
-
