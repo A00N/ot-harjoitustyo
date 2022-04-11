@@ -1,12 +1,12 @@
 import sys
 from levels import *
 
-
-FPS = 60
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('Nonograms by Nooa')
 pygame.init()
 
+level = level0
+level_answer = level0_answer
 
 def get_row_col_from_mouse(pos):
     x, y = pos
@@ -39,7 +39,7 @@ def main_menu():
         # Play buttons action
         if button_play.collidepoint((mouse_x, mouse_y)):
             if click:
-                play()
+                play(level, level_answer)
 
         # Draw levels button
         pygame.draw.rect(WIN, (180, 150, 255), button_levels)
@@ -77,16 +77,65 @@ def levels():
         draw_text("Levels", font, BLACK, WIN, WIDTH / 2, HEIGHT / 8)
         mouse_x, mouse_y = pygame.mouse.get_pos()
 
-        # Define back button
+        # Define buttons
         button_back = pygame.Rect(WIDTH / 2 - 75, HEIGHT / 6 * 5, 150, 50)
-        # Draw back button
+        draw_text("Back", font, BLACK, WIN, WIDTH / 2, HEIGHT / 6 * 5 + 25)
+
+        level1_button = pygame.Rect(WIDTH / 2 - 75, HEIGHT / 10 * 3, 150, 50)
+        level2_button = pygame.Rect(WIDTH / 2 - 75, HEIGHT / 10 * 4, 150, 50)
+        level3_button = pygame.Rect(WIDTH / 2 - 75, HEIGHT / 10 * 5, 150, 50)
+        level4_button = pygame.Rect(WIDTH / 2 - 75, HEIGHT / 10 * 6, 150, 50)
+        level5_button = pygame.Rect(WIDTH / 2 - 75, HEIGHT / 10 * 7, 150, 50)
+
+        # Draw buttons
         pygame.draw.rect(WIN, (180, 150, 255), button_back)
         draw_text("Back", font, BLACK, WIN, WIDTH / 2, HEIGHT / 6 * 5 + 25)
-        # Back buttons action
+
+        pygame.draw.rect(WIN, (180, 150, 255), level1_button)
+        draw_text("Level: 1", font, BLACK, WIN, WIDTH / 2, HEIGHT / 10 * 3 + 25)
+
+        pygame.draw.rect(WIN, (180, 150, 255), level2_button)
+        draw_text("Level: 2", font, BLACK, WIN, WIDTH / 2, HEIGHT / 10 * 4 + 25)
+
+        pygame.draw.rect(WIN, (180, 150, 255), level3_button)
+        draw_text("Level: 3", font, BLACK, WIN, WIDTH / 2, HEIGHT / 10 * 5 + 25)
+
+        pygame.draw.rect(WIN, (180, 150, 255), level4_button)
+        draw_text("Level: 4", font, BLACK, WIN, WIDTH / 2, HEIGHT / 10 * 6 + 25)
+
+        pygame.draw.rect(WIN, (180, 150, 255), level5_button)
+        draw_text("Level: 5", font, BLACK, WIN, WIDTH / 2, HEIGHT / 10 * 7 + 25)
+
+        # Button actions
         if button_back.collidepoint((mouse_x, mouse_y)):
             if click:
                 run = False
                 main_menu()
+        if level1_button.collidepoint((mouse_x, mouse_y)):
+            if click:
+                level = level0
+                level_answer = level0_answer
+                play(level, level_answer)
+        elif level2_button.collidepoint((mouse_x, mouse_y)):
+            if click:
+                level = level1
+                level_answer = level1_answer
+                play(level, level_answer)
+        elif level3_button.collidepoint((mouse_x, mouse_y)):
+            if click:
+                level = level2
+                level_answer = level2_answer
+                play(level, level_answer)
+        elif level4_button.collidepoint((mouse_x, mouse_y)):
+            if click:
+                level = level3
+                level_answer = level3_answer
+                play(level, level_answer)
+        elif level5_button.collidepoint((mouse_x, mouse_y)):
+            if click:
+                level = level4
+                level_answer = level4_answer
+                play(level, level_answer)
 
         click = False
         for event in pygame.event.get():
@@ -96,10 +145,10 @@ def levels():
         pygame.display.update()
 
 
-def play():
+def play(level, level_answer):
     run = True
     clock = pygame.time.Clock()
-    grid = Grid()
+    grid = Grid(level, level_answer)
     grid.completed = False
     while run:
         clock.tick(FPS)

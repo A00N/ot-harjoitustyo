@@ -5,6 +5,7 @@ WIDTH, HEIGHT = 600, 600
 ROWS = COLS = 9
 SQUARE_SIZE = WIDTH / COLS
 LEVEL_LENGTH = 7
+FPS = 60
 # Colors
 DARKGRAY = (120, 120, 120)
 CYAN = (180, 180, 255)
@@ -32,7 +33,3 @@ def draw_text(text, font, color, surface, x, y):
     surface.blit(textobj, textrect)
 
 
-# levels
-LEVEL0 = (level0, level0_answer)
-LEVEL1 = (level1, level1_answer)
-LEVEL2 = (level2, level2_answer)

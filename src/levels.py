@@ -1,15 +1,13 @@
 from constants import *
 from marker import Marker
-from numberMarker import Numbers
+from number_marker import Numbers
 
 
 class Grid:
-    def __init__(self):
+    def __init__(self, level, level_answer):
         self.grid = []
-
-        self.level = level2
-        self.level_answer = level2_answer
-
+        self.level = level
+        self.level_answer = level_answer
         self.create_level(self.level)
         self.answer = [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [
             0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
