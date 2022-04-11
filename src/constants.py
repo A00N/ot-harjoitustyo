@@ -1,5 +1,5 @@
 import pygame
-from levelList import *
+from level_list import *
 
 WIDTH, HEIGHT = 600, 600
 ROWS = COLS = 9
