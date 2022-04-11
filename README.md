@@ -9,14 +9,6 @@ Mikäli nonogramit ovat käsitteenä vieras, suosittelen katsomään tämän vid
 
 https://www.youtube.com/watch?v=zisu0Qf4TAI
 
-Perinteisesti nonogramit sisältävät vihjeitä, jotka muodostuvat numeroista. Tässä versiossa uniikkina ominaisuutena ei olekaan numeroita, vaan värejä. Värit kuitenkin toimivat vastaavalla tavalla, ja jokaisella värillä on oma numeronsa.
-
-**Värit:**
-- sininen = 1
-- vihreä = 2
-- keltainen = 3
-- oranssi = 4
-- punainen = 5
 
 ### Dokumentaatio
 
