@@ -11,29 +11,29 @@ Sovelluksessa on ainoastaan yksi käyttäjärooli eli _pelaaja_.
 
 ## Käyttöliittymäluonnos
 Sovellus koostuu seuraavista näkymistä:
-- Päävalikko
-- Tasonäkymä
-- Taso(t)
+- Päävalikko (tehty)
+- Tasonäkymä  (tehty)
+- Taso(t)  (tehty)
 
-![](./kuvat/paavalikko-tasot-taso.png)
+![](./kuvat/paavalikko-tasot-taso.png) (tehty)
 
 ## Perusversion toiminnot
 
 ### Päävalikossa 
 
-- Pelaaja voi selata eri tasoja
-- Pelaaja voi valita tasoista haluamansa tason ja pelata sitä
+- Pelaaja voi selata eri tasoja (tehty)
+- Pelaaja voi valita tasoista haluamansa tason ja pelata sitä (tehty)
 - Pelaaja näkee mitkä tasoita on suorittanut
-- Pelaaja voi poistua pelistä
+- Pelaaja voi poistua pelistä (tehty)
 
 ### Pelissä
 
 - Pelaajalla on kolme elämää
-- Pelaaja voi lisätä rasteja ruutuun, johon ei tule neliötä
-- Pelaaja voi lisätä neliön ruutuun, johon uskoo sen kuuluvan
+- Pelaaja voi lisätä harmaita neliöitä ruutuun, johon ei tule tummaa neliötä  (tehty)
+- Pelaaja voi lisätä neliön ruutuun, johon uskoo sen kuuluvan  (tehty)
 - Pelaajalle menettää elämän, mikäli laittaa neliön väärään ruutuun ja sen tilalle ilmestyy rasti
 - Peliin tulee automaattisesti rasti, kun rivin tai sarakkeen neliöt tulevat täyteen.
-- Pelaaja voi poistua päävalikkoon, vaikka tasoa ei olisi tehty
+- Pelaaja voi poistua päävalikkoon, vaikka tasoa ei olisi tehty  (tehty)
 
 
 ## Jatkokehitysideat
