@@ -18,10 +18,12 @@ https://www.youtube.com/watch?v=zisu0Qf4TAI
 
 [Changelog](./dokumentaatio/changelog.md)
 
+[Arkkitehtuuri](./dokumentaatio/arkkitehtuuri.md)
+
 ### Huomiot!
 
-vdi yhteydellä linuxissa kyseinen ohjelma _toimii_ **mutta** kuvasuhteet eivät tuntemattomaksi syyksi jäänestä viasta huolimatta toimi oikein.
+Vdi yhteydellä linuxissa kyseinen ohjelma _toimii_ **mutta** kuvasuhteet eivät tuntemattomaksi syyksi jäänestä viasta huolimatta toimi oikein.
 
-Kuva miltä sovelluksen pitäisi näyttää (ja näyttää windows sekä mac koneilla sekä fuksiläppärillä)
+Kuva miltä sovelluksen pitäisi näyttää (ja näyttää windowsilla, macilla sekä fuksiläppärillä)
 
 [Kuva](./dokumentaatio/kuvat/toimivasovellus.PNG)
