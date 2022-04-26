@@ -12,6 +12,8 @@ https://www.youtube.com/watch?v=zisu0Qf4TAI
 
 ### Dokumentaatio
 
+[Release 1](https://github.com/Zo4N/ot-harjoitustyo/releases/tag/viikko5)
+
 [Vaativuusmäärittely](./dokumentaatio/vaatimusmaarittely.md)
 
 [Työaikakirjanpito](./dokumentaatio/tyoaikakirjanpito.md)
