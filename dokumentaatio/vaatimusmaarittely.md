@@ -31,7 +31,7 @@ Sovellus koostuu seuraavista näkymistä:
 - Pelaajalla on kolme elämää
 - Pelaaja voi lisätä harmaita neliöitä ruutuun, johon ei tule tummaa neliötä  (tehty)
 - Pelaaja voi lisätä neliön ruutuun, johon uskoo sen kuuluvan  (tehty)
-- Pelaajalle menettää elämän, mikäli laittaa neliön väärään ruutuun ja sen tilalle ilmestyy rasti
+- Pelaajalle menettää elämän, mikäli laittaa neliön väärään ruutuun ja sen tilalle ilmestyy rasti
 - Peliin tulee automaattisesti rasti, kun rivin tai sarakkeen neliöt tulevat täyteen.
 - Pelaaja voi poistua päävalikkoon, vaikka tasoa ei olisi tehty  (tehty)
 

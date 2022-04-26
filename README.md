@@ -27,3 +27,16 @@ Vdi yhteydellä linuxissa kyseinen ohjelma _toimii_ **mutta** kuvasuhteet eivät
 Kuva miltä sovelluksen pitäisi näyttää (ja näyttää windowsilla, macilla sekä fuksiläppärillä)
 
 [Kuva](./dokumentaatio/kuvat/toimivasovellus.PNG)
+
+### Asennus ja käyttäminen
+
+Aloita kloonaamalla repositorio, lisää alla olevat komennot terminaalissa
+git clone https://github.com/Zo4N/ot-harjoitustyo
+
+curl -sSL https://install.python-poetry.org/. | POETRY_HOME=$HOME/.local python3 
+
+export PATH="$HOME/.local/bin:$PATH"
+
+poetry update
+
+poetry run invoke start
