@@ -31,6 +31,7 @@ Kuva miltä sovelluksen pitäisi näyttää (ja näyttää windowsilla, macilla 
 ### Asennus ja käyttäminen
 
 Aloita kloonaamalla repositorio, lisää alla olevat komennot terminaalissa
+
 git clone https://github.com/Zo4N/ot-harjoitustyo
 
 curl -sSL https://install.python-poetry.org/. | POETRY_HOME=$HOME/.local python3 
