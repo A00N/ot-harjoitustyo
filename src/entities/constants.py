@@ -1,5 +1,4 @@
 import pygame
-from level_list import *
 
 WIDTH, HEIGHT = 600, 600
 ROWS = COLS = 9
@@ -31,5 +30,3 @@ def draw_text(text, font, color, surface, x, y):
     textrect = textobj.get_rect()
     textrect.center = (x, y)
     surface.blit(textobj, textrect)
-
-

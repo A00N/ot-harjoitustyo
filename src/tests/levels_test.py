@@ -1,6 +1,8 @@
 import unittest
-from levels import *
-from level_list import *
+from services.levels import *
+from entities.level_list import *
+
+
 
 level = level0
 level_answer = level0_answer
@@ -8,7 +10,7 @@ level_answer = level0_answer
 
 class TestGrid(unittest.TestCase):
     def setUp(self):
-        self.grid = Grid(level,level_answer)
+        self.grid = Grid(level, level_answer)
         self.level = level
         self.level_answer = level_answer
         self.RED = (255, 0, 0)
@@ -23,3 +25,4 @@ class TestGrid(unittest.TestCase):
     def test_window_size(self):
         self.assertEqual(self.WIDTH*self.HEIGHT, 360000)
 
+    # def test_check_for_completion(self):

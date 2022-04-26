@@ -1,5 +1,5 @@
 import pygame
-from constants import SQUARE_SIZE
+from entities.constants import SQUARE_SIZE
 
 
 class Marker:

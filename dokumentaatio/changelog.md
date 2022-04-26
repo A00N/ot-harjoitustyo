@@ -14,3 +14,8 @@
 - Lisätty navigointi eri huoneiden välillä
 - Lisätty napit sekä tekstit nappeihin.
 - Lisätty numerointi väritettyjen vihjeiden päälle sekaannuksien välttämiseksi
+
+## Viikko 5
+- Paranneltu pakkausrakennetta
+- Lisätty testejä
+- Parannettu koodin laatua, sekä korjattu ongelmia

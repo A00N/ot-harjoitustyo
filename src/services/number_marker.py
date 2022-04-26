@@ -1,5 +1,4 @@
-import pygame
-from constants import *
+from entities.constants import SQUARE_SIZE, draw_text, font, BLACK, pygame
 
 
 class Numbers:

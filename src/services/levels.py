@@ -1,6 +1,6 @@
-from constants import *
-from marker import Marker
-from number_marker import Numbers
+from entities.constants import *
+from services.marker import Marker
+from services.number_marker import Numbers
 
 
 class Grid:
