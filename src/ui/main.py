@@ -26,7 +26,7 @@ class MainMenu:
         while run:
             clock.tick(FPS)
             self.WIN.fill(LIGHTBLUE)
-            draw_text("Nonograms", font, BLACK,
+            draw_text("Nonograms", text_font, BLACK,
                       self.WIN, WIDTH / 2, HEIGHT / 4)
 
             mouse_x, mouse_y = pygame.mouse.get_pos()
@@ -41,7 +41,7 @@ class MainMenu:
 
             # Draw play button
             pygame.draw.rect(self.WIN, (180, 150, 255), button_play)
-            draw_text("Play", font, BLACK, self.WIN,
+            draw_text("Play", text_font, BLACK, self.WIN,
                       WIDTH / 2, HEIGHT / 5 * 2 + 25)
             # Play buttons action
             if button_play.collidepoint((mouse_x, mouse_y)):
@@ -50,7 +50,7 @@ class MainMenu:
 
             # Draw levels button
             pygame.draw.rect(self.WIN, (180, 150, 255), button_levels)
-            draw_text("Levels", font, BLACK, self.WIN,
+            draw_text("Levels", text_font, BLACK, self.WIN,
                       WIDTH / 2, HEIGHT / 5 * 3 + 25)
             # Levels buttons action
             if button_levels.collidepoint((mouse_x, mouse_y)):
@@ -59,7 +59,7 @@ class MainMenu:
 
             # Draw quit button
             pygame.draw.rect(self.WIN, (180, 150, 255), button_quit)
-            draw_text("Quit", font, BLACK, self.WIN,
+            draw_text("Quit", text_font, BLACK, self.WIN,
                       WIDTH / 2, HEIGHT / 5 * 4 + 25)
             # Quit buttons action
             if button_quit.collidepoint((mouse_x, mouse_y)):
@@ -82,12 +82,12 @@ class MainMenu:
             clock.tick(FPS)
             self.WIN.fill(LIGHTBLUE)
 
-            draw_text("Levels", font, BLACK, self.WIN, WIDTH / 2, HEIGHT / 8)
+            draw_text("Levels", text_font, BLACK, self.WIN, WIDTH / 2, HEIGHT / 8)
             mouse_x, mouse_y = pygame.mouse.get_pos()
 
             # Define buttons
             button_back = pygame.Rect(WIDTH / 2 - 75, HEIGHT / 6 * 5, 150, 50)
-            draw_text("Back", font, BLACK, self.WIN,
+            draw_text("Back", text_font, BLACK, self.WIN,
                       WIDTH / 2, HEIGHT / 6 * 5 + 25)
 
             level1_button = pygame.Rect(
@@ -103,27 +103,27 @@ class MainMenu:
 
             # Draw buttons
             pygame.draw.rect(self.WIN, (180, 150, 255), button_back)
-            draw_text("Back", font, BLACK, self.WIN,
+            draw_text("Back", text_font, BLACK, self.WIN,
                       WIDTH / 2, HEIGHT / 6 * 5 + 25)
 
             pygame.draw.rect(self.WIN, (180, 150, 255), level1_button)
-            draw_text("Level: 1", font, BLACK, self.WIN,
+            draw_text("Level: 1", text_font, BLACK, self.WIN,
                       WIDTH / 2, HEIGHT / 10 * 3 + 25)
 
             pygame.draw.rect(self.WIN, (180, 150, 255), level2_button)
-            draw_text("Level: 2", font, BLACK, self.WIN,
+            draw_text("Level: 2", text_font, BLACK, self.WIN,
                       WIDTH / 2, HEIGHT / 10 * 4 + 25)
 
             pygame.draw.rect(self.WIN, (180, 150, 255), level3_button)
-            draw_text("Level: 3", font, BLACK, self.WIN,
+            draw_text("Level: 3", text_font, BLACK, self.WIN,
                       WIDTH / 2, HEIGHT / 10 * 5 + 25)
 
             pygame.draw.rect(self.WIN, (180, 150, 255), level4_button)
-            draw_text("Level: 4", font, BLACK, self.WIN,
+            draw_text("Level: 4", text_font, BLACK, self.WIN,
                       WIDTH / 2, HEIGHT / 10 * 6 + 25)
 
             pygame.draw.rect(self.WIN, (180, 150, 255), level5_button)
-            draw_text("Level: 5", font, BLACK, self.WIN,
+            draw_text("Level: 5", text_font, BLACK, self.WIN,
                       WIDTH / 2, HEIGHT / 10 * 7 + 25)
 
             # Button actions
@@ -219,7 +219,7 @@ class MainMenu:
 
             # Draw back button
             pygame.draw.rect(self.WIN, (180, 150, 255), button_back)
-            draw_text("Back", font, BLACK, self.WIN, WIDTH /
+            draw_text("Back", text_font, BLACK, self.WIN, WIDTH /
                       2, HEIGHT / 6 * 5 + 25 + 40)
 
             # Back buttons action

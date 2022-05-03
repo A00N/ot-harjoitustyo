@@ -5,6 +5,7 @@ ROWS = COLS = 9
 SQUARE_SIZE = WIDTH / COLS
 LEVEL_LENGTH = 7
 FPS = 60
+
 # Colors
 DARKGRAY = (120, 120, 120)
 CYAN = (180, 180, 255)
@@ -22,7 +23,7 @@ PINK = (255, 192, 192)
 
 # Text options
 pygame.init()
-font = pygame.font.SysFont(None, 50)
+text_font = pygame.font.SysFont(None, 50)
 
 
 def draw_text(text, font, color, surface, x, y):
