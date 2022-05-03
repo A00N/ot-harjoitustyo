@@ -8,5 +8,6 @@ Päivä - Aika - mitä tein
 - 11.4 | 6 | Lisätty graafisia ominaisuuksia, kuten napit, tekstit nappeihin sekä tekstit väripalloihin
 - 25.4 | 4 | Lisätty uusia testejä
 - 26.4 | 8 | Paranneltu pakkausrakennetta, sekä koodin laatua
-
+- 2.5  | 3 | Suuniteltu tallennussysteemi (ei vielä toteutettu onnistuneesti palautukseen)
+- 3.5  | 5 | Lisätty docstring dokumentaatio, sekä korjattu bugeja
 yht: 38

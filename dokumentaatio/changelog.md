@@ -19,3 +19,8 @@
 - Paranneltu pakkausrakennetta
 - Lisätty testejä
 - Parannettu koodin laatua, sekä korjattu ongelmia
+
+## Viikko 6
+- Korjattu bugeja
+- Lisätty docstring dokumentointi
+- Suuniteltu tiedostoon tasoja tallentava systeemi (ei vielä toteutettu tähän palautukseen)

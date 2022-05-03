@@ -28,11 +28,8 @@ Sovellus koostuu seuraavista näkymistä:
 
 ### Pelissä
 
-- Pelaajalla on kolme elämää
 - Pelaaja voi lisätä harmaita neliöitä ruutuun, johon ei tule tummaa neliötä  (tehty)
 - Pelaaja voi lisätä neliön ruutuun, johon uskoo sen kuuluvan  (tehty)
-- Pelaajalle menettää elämän, mikäli laittaa neliön väärään ruutuun ja sen tilalle ilmestyy rasti
-- Peliin tulee automaattisesti rasti, kun rivin tai sarakkeen neliöt tulevat täyteen.
 - Pelaaja voi poistua päävalikkoon, vaikka tasoa ei olisi tehty  (tehty)
 
 
@@ -40,7 +37,6 @@ Sovellus koostuu seuraavista näkymistä:
 
 Perusversion jälkeen mahdollisia lisäyksiä:
 
-- Pelissä voisi ansaita "kredittejä" suorittamalla tasoja, joilla voi ostaa vihjeitä, ulkoasuja tai mahdollisesti uusia tasoja.
 - Peliin voisi lisätä kirjaston erilaisia kuvia, joista pelaaja voisi valita, josta peli sitten luo automaattisesti tason
 - Peliin voisi lisätä kirjautumis- ja rekisteröitymistoimminnon, jotta käyttäjät voivat pitää kirjaa suoritetuista tasoistaan vaikka käyttäjillä oli käytössä sama laite
 - Peliin voisi lisätä **highscore** toiminnon, jolloin pelaajat voisivat vertailla omia tuloksiaan
