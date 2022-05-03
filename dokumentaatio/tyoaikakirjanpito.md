@@ -10,4 +10,5 @@ Päivä - Aika - mitä tein
 - 26.4 | 8 | Paranneltu pakkausrakennetta, sekä koodin laatua
 - 2.5  | 3 | Suuniteltu tallennussysteemi (ei vielä toteutettu onnistuneesti palautukseen)
 - 3.5  | 5 | Lisätty docstring dokumentaatio, sekä korjattu bugeja
-yht: 38
+- 
+yht: 46
