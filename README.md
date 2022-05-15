@@ -14,6 +14,8 @@ https://www.youtube.com/watch?v=zisu0Qf4TAI
 
 [Release 1](https://github.com/Zo4N/ot-harjoitustyo/releases/tag/viikko5)
 
+[Kayttöohje](https://github.com/Zo4N/ot-harjoitustyo/blob/main/dokumentaatio/kayttoohje.md)
+
 [Vaativuusmäärittely](./dokumentaatio/vaatimusmaarittely.md)
 
 [Työaikakirjanpito](./dokumentaatio/tyoaikakirjanpito.md)
