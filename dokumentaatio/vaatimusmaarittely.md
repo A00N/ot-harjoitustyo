@@ -23,7 +23,6 @@ Sovellus koostuu seuraavista näkymistä:
 
 - Pelaaja voi selata eri tasoja (tehty)
 - Pelaaja voi valita tasoista haluamansa tason ja pelata sitä (tehty)
-- Pelaaja näkee mitkä tasoita on suorittanut
 - Pelaaja voi poistua pelistä (tehty)
 
 ### Pelissä
