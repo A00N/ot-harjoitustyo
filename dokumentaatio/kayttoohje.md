@@ -1,5 +1,5 @@
 ### Käyttöohje
-Lataa projektin viimeisin release. Tämä löytyy [https://github.com/Zo4N/ot-harjoitustyo/releases] tästä.
+Lataa projektin viimeisin release. Tämä löytyy [tästä](https://github.com/Zo4N/ot-harjoitustyo/releases).
 
 
 ## Käynnistäminen
